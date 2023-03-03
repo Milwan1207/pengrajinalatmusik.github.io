@@ -1,0 +1,293 @@
+        
+        <!--
+        
+        <div="container">
+        
+          
+          <div class="modal show" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <div class="modal-content" >
+                <div class="modal-body" style="overflow-y: auto">
+                    <button onclick = "$('.modal').removeClass('show').addClass('fade');" type="button" class="close" data-dismiss="modal">&times;</button>
+                  <a href="https://play.google.com/store/apps/details?id=id.gits.imsakiyah&hl=en"><img src="https://mysch.id/cms_baru/upload/image/popup_muslimlife.jpg"class='img-thumbnail' style='max-height:600px'></a>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal" onclick = "$('.modal').removeClass('show').addClass('fade');">Close</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+          
+        </div>
+        --><!DOCTYPE html>
+        <html lang="en"> 
+        <head>
+            <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+            
+        	<meta name="title" content="Milwan Percussion"/>
+        	<meta name="description" content="Pusat Perbelanjaan Alat Musik Terlengkap  - Milwan Percussion"/>
+        	<meta name="keywords" content="Milwan Percussion"/>
+        	<meta name="copyright" content=""/>	
+        	<meta name="author" content=""/>	
+        	<meta name="geo.placename" content="indonesia"/>
+        	<meta name="geo.country" content="id"/>
+        	<meta name="content-language" content="id"/>
+        	
+        	<meta property="fb:app_id" content="145000412781544" /> 
+        	<meta property="og:title" content="Milwan Percussion" />
+        	<meta property="og:description" content="Pusat Perbelanjaan Alat Musik Terlengkap" />
+        	<meta property="og:image" content="20221008_182604_0000.png"/>
+        	<meta property="og:image:width" content="600" />
+        	<meta property="og:image:height" content="600" />
+        	<meta property="og:image:alt" content="Milwan Percussion" />
+        	<meta property="og:type" content="article" />
+        	<meta property="og:url" content="" />
+        	  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <link rel="icon" href="20221204_155533_0000.png" type="image/x-icon" sizes="any" />
+            <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/style.css">
+            <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/default/style.css">
+            <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/default/font-awesome.min.css">
+            <link rel="stylesheet" href="https://storage.googleapis.com/s.mysch.id/themes/academy/default/datatables/dataTables.bootstrap4.min.css">
+            <title>Pengrajin & Supplier Alat Musik</title>
+            <!--SCRIPT-->
+        	<script src="https://storage.googleapis.com/s.mysch.id/themes/academy/js/jquery/jquery-2.2.4.min.js"></script></head>
+        	<script src="script.js"></script>
+        <body>
+         <script>
+            myFunction()
+        </script>
+            <div class="top-area">
+            <div class="container"> 
+                <div class="row">
+                    <div class="col-md-6 top-left"></div>
+                    <div class="col-md-6 top-right">                    <div id="clock"></div>
+                    		<script type="text/javascript">
+                        		function showTime() {
+                        		    var months = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November', 'Desember'];
+                        			var myDays = ['Minggu', 'Senin', 'Selasa', 'Rabu', 'Kamis', 'Jum&#39;at', 'Sabtu'];
+                        			var date = new Date();
+                        			var day = date.getDate();
+                        			var month = date.getMonth();
+                        			var thisDay = date.getDay(),
+                        			    thisDay = myDays[thisDay];
+                        			var yy = date.getYear();
+                        			var year = (yy < 1000) ? yy + 1900 : yy;
+                        			
+                        		    var a_p = "";
+                        		    var today = new Date();
+                        		    var curr_hour = today.getHours();
+                        		    var curr_minute = today.getMinutes();
+                        		    var curr_second = today.getSeconds();
+                        		    if (curr_hour < 12) {
+                        		        a_p = "AM";
+                        		    } else {
+                        		        a_p = "PM";
+                        		    }
+                        		    if (curr_hour == 0) {
+                        		        curr_hour = 12;
+                        		    }
+                        		    if (curr_hour > 12) {
+                        		        curr_hour = curr_hour - 12;
+                        		    }
+                        		    curr_hour = checkTime(curr_hour);
+                        		    curr_minute = checkTime(curr_minute);
+                        		    curr_second = checkTime(curr_second);
+                        		    document.getElementById('clock').innerHTML=thisDay + ', ' + day + ' ' + months[month] + ' ' + year + ' ' + curr_hour + ":" + curr_minute + ":" + curr_second + " " + a_p;
+                        		}
+                         
+                        		function checkTime(i) {
+                        		    if (i < 10) {
+                        		        i = "0" + i;
+                        		    }
+                        		    return i;
+                        		}
+                        		setInterval(showTime, 500);
+                    		</script>
+                    		            </div>
+                </div>
+            </div>
+        </div>  
+        <header class="header-area"> 
+                <div class="top-header">
+                    <div class="container">
+                        <div class="header-content align-items-center justify-content-between" >
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="" title="Milwan Percussion">
+                                        <img src="20221211_062357_0000.png" alt="Milwan Percussion" align="left" width="80" style="margin:-5px 10px 0 0"/>
+                                        <b style="font-size:22px;margin-top:20px;font-weight:400;text-transform:uppercase;"><b>Milwan Percussion</b></b>
+                                        <p><span style="font-size:16px;font-weight:400;">Produksi & Suplier Alat Musik</p></span>
+                                    </a>
+                                </div>
+        <nav class="navbar">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                   
+        <section class="hero-area"> 
+            <div class="hero-slides owl-carousel">                <div class="single-hero-slide bg-img" style="background-image: url('png_20221204_160006_0000.png');">
+                            <div class="container h-100">
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-12">
+                                        <div class="hero-slides-content">
+                                            <h2 data-animation="fadeInUp" data-delay="400ms"></h2>
+                                            <a href="" target="_parent" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Selengkapnya</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                <div class="single-hero-slide bg-img" style="background-image: url('20221211_062357_0000.png');">
+                            <div class="container h-100">
+                                <div class="row h-100 align-items-center">
+                                    <div class="col-md-12">
+                                        <div class="hero-slides-content">
+                                            <h2 data-animation="fadeInUp" data-delay="400ms"></h2>
+                                            <a href="" target="_parent" class="btn academy-btn" data-animation="fadeInUp" data-delay="700ms">Selengkapnya</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                
+        </section>
+        <section class="about-us-area section-padding-100">
+            <div class="container">
+                <div class="row"> 
+                    <div class="col-md-8">            				<div id="main">
+                            			<div class="main">
+                            				<div class="main_title"></div>
+                            				<div class="main_body">    </div>
+                            			</div>
+                            		</div>        
+                                				<div class="main_body"><script type="text/javascript">
+            $(document).ready(function(){
+            var first = 0;
+            var speed = 400;
+            var pause = 3000;
+            function removeFirst(){
+            	first = $('ul#listticker li:first').html();
+            	$('ul#listticker li:first')
+            	.animate({opacity: 0}, speed) 
+            	.fadeOut('slow', function() {$(this).remove();});
+            	addLast(first);
+            }
+            function addLast(first){
+            	last = '<li style="display:none">'+first+'</li>';
+            	$('ul#listticker').append(last)
+            	$('ul#listticker li:last')
+            	.animate({opacity: 1}, speed)
+            	.fadeIn('slow')
+            }
+            interval = setInterval(removeFirst, pause);
+            });
+        </script>
+        <style type="text/css">
+        #listticker{ float:left; height:25px;  overflow:hidden;}
+        #listticker li{ border:0; margin:0; padding:0; list-style:none;	 font-weight:400; }
+        #listticker a:link, #listticker a:visited {  text-decoration:none; font-weight:400; }
+        #listticker a:hover { text-decoration:none; color:#0000CC; font-weight:400; }
+        </style>
+        <b style="float:left;">UPDATE : &nbsp; </b>
+        		<marquee><a href="" title="">Mau alat musik yang murah, tapi kualitas terjamin 100% baguss??? Yukk cari tahu...</marquee></a>
+        		</div>
+                                			</div>
+                                		</div>
+                                		<hr/>            				    <div id="main">
+                                			<div class="main">
+                                				<div class="main_title"> Milwan Percussion</div>
+                                				<div class="main_body"> 
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-fluid" src="20221204_155533_0000.png" alt="" width="250" align="left" style="margin:5px 20px 20px 0px">
+                    <b>Miwan Percussion berdiri sejak tahun 2018. Di dirikan oleh Muhammad Milwan Kurniawan. Beliau adalah salah satu pengrajin alat musik terkenal di desa Kaliwadas. Milwan Kurniawan atau sering disebut juga Milwan lahir pada 12 juli 2007. Ia mendapat warisan dari nenek nya untuk meneruskan usaha membuat alat musik.     </div>
+            </div>
+            </div>
+                                			</div>
+                                		</div>
+                                		<hr/>
+        								<div id="widget">
+            							<div class="widget">
+            								<div class="widget_title">Kontak</div>
+            								<div class="widget_body">
+            
+            <b>Alamat :</b>
+        	<p>Desa Kaliwadas krajan lor. RT 03/02 kecamatan Bumiayu kabupaten Brebes (52273).</p>
+        			<b> Telepon :</b>
+        		<p>081391644785</p>		<b> Email :</b>
+        		<p>milwanpercussion1207@gmail.com</p>		
+        			<b>Media Sosial :</b>
+        		<ul>
+        			<li><i class="fa fa-facebook" style="width:20px;"></i> <a href="https://www.facebook.com/profile.php?id=100086178922124" title="Facebook" target="_blank">Facebook</a></li>
+        			<li><i class="fa fa-whatsapp"  style="width:20px;"></i> <a href="https://wa.me/6281229206415" title="WhatsApp" target="_blank">WhatsApp</a></li>
+        						<li><i class="fa fa-instagram"  style="width:20px;"></i> <a href="https://instagram.com/milwan_percussion?igshid=YmMyMTA2M2Y=" title="Instagram" target="_blank">Instagram</a></li>
+        		</ul></div>
+            							</div>
+            						</div>    			
+            						<div id="widget">
+            						  Produk Kami:
+            						  
+            							<div class="widget">
+            								<div class="widget_title"></div>
+            								<div class="widget_body">     <a href="form.html" title="" target="_blank">
+                <img width="100%" src="IMG-20230104-WA0013.jpg" alt="" />
+            </a>
+            <br/><br/> 
+            <a href="" title="" target="_blank">
+                <img width="100%" src="FB_IMG_16728229001008354.jpg" alt="" />
+                    <br/><br/> 
+                      <a href="" title="FB_IMG_16728317059676093.jpg" target="_blank"
+                     ></a>
+        
+                      <a href="" title="" target="_blank">
+                <img width="100%" src="FB_IMG_16767344380868454.jpg" alt="" />
+            </div>
+            							</div>
+            						</div>    					
+            					<center>	<a href="http://daftar.42web.io"><button>klik disini untuk mendaftar akun</a></button></center>
+            	   </div>
+            						</div>  
+            						</div>			</div>
+        		</div>
+        	</div>
+        </section>   
+        	</div>
+        </div><div class="bottom-footer-area"> 
+            <div class="container">
+                <p>2018 - copyright</p>
+            </div>
+        </div>	</footer>
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/js/bootstrap/popper.min.js"></script>
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/js/bootstrap/bootstrap.min.js"></script>
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/js/plugins/plugins.js"></script>
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/js/active.js"></script>
+            
+            <!--TABEL-->
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/default/datatables/jquery.dataTables.min.js"></script>
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/default/datatables/dataTables.bootstrap4.min.js"></script>
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/default/datatables/datatables-demo.js"></script>
+            
+            <!--GALERI-->
+            <script src="https://storage.googleapis.com/s.mysch.id/themes/academy/default/prettyphoto/jquery.prettyPhoto.js"></script>
+            <link  href="https://storage.googleapis.com/s.mysch.id/themes/academy/default/prettyphoto/prettyPhoto.css" rel="stylesheet" type="text/css"/>
+            <script type="text/javascript" charset="utf-8">
+        		$(document).ready(function(){
+        			$("area[rel^='prettyPhoto']").prettyPhoto();				
+        			$(".gallery:first a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',theme:'light_rounded',slideshow:3000, autoplay_slideshow: true});
+        			$(".gallery:gt(0) a[rel^='prettyPhoto']").prettyPhoto({animation_speed:'normal',slideshow:10000, hideflash: true});		
+        		});
+        	</script>
+        	
+        </body>
+        </html>
